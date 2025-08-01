@@ -1,99 +1,128 @@
 
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GioLIFE — Criando vidas, cultivando legados</title>
-  <link rel="icon" href="/favicon.ico" />
+  <meta charset="UTF-8">
+  <title>VENNEX.IO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VENNEX.IO builds intelligent solutions for a borderless world. Powered by RunAI Systems.">
+  <meta property="og:title" content="VENNEX.IO">
+  <meta property="og:description" content="Born to Disrupt. Built to Deliver.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1542751110-97427bbecf20?fit=crop&w=1950&q=80">
+  <meta property="og:url" content="https://vennex.io">
   <style>
-    body {
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap');
+    * {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f6f1eb;
-      color: #2e2e2e;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #000;
+      color: #f0f0fa;
+      font-family: 'Space Grotesk', sans-serif;
     }
     header {
-      background: #fff;
-      padding: 2rem;
-      text-align: center;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 10;
     }
-    header img {
-      max-width: 180px;
+    nav a {
+      color: #f0f0fa;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 400;
     }
     .hero {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1542751110-97427bbecf20?fit=crop&w=1950&q=80') center center / cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       text-align: center;
-      padding: 3rem 2rem;
+      padding: 0 20px;
     }
     .hero h1 {
-      font-size: 2rem;
-      color: #4a3d36;
-      margin-bottom: 1rem;
+      font-size: 3.5rem;
+      font-weight: 600;
+    }
+    .hero p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: rgba(240, 240, 250, 0.8);
     }
     .section {
-      max-width: 800px;
+      padding: 100px 20px;
+      text-align: center;
+      background-color: #111;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .section p {
+      font-size: 1rem;
+      color: #ccc;
+      max-width: 600px;
       margin: 0 auto;
-      padding: 2rem;
-    }
-    .video {
-      text-align: center;
-      margin-top: 2rem;
-    }
-    .video iframe {
-      width: 100%;
-      max-width: 640px;
-      height: 360px;
-      border-radius: 10px;
-      border: none;
-    }
-    .contacts {
-      text-align: center;
-      padding: 2rem;
-    }
-    .contacts a {
-      display: inline-block;
-      margin: 0.5rem;
-      padding: 0.75rem 1.5rem;
-      background-color: #7e5a3c;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: background 0.3s;
-    }
-    .contacts a:hover {
-      background-color: #5d412a;
     }
     footer {
       text-align: center;
-      padding: 1.5rem;
-      background-color: #eae2da;
+      padding: 40px 20px;
       font-size: 0.9rem;
+      color: #666;
+      background: #000;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="/logo-giolife.png" alt="GioLIFE Logo">
+    <div><strong>VENNEX.IO</strong></div>
+    <nav>
+      <a href="#about">Sobre</a>
+      <a href="#solutions">Soluções</a>
+      <a href="#partners">Parceiros</a>
+      <a href="#contact">Contato</a>
+    </nav>
   </header>
 
   <section class="hero">
-    <h1>Criando vidas, cultivando legados</h1>
-    <p>Dra. Geovanna Felix — Medicina Veterinária Reprodutiva</p>
+    <div>
+      <h1>Born to Disrupt.<br>Built to Deliver.</h1>
+      <p>Tech and automation for a borderless world.</p>
+    </div>
   </section>
 
-  <section class="section video">
-    <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+  <section class="section" id="about">
+    <h2>Sobre a VENNEX.IO</h2>
+    <p>VENNEX.IO is a global platform powered by RunAI Systems LLC. We build intelligent tools for modern economies — merging automation, AI and cultural design.</p>
   </section>
 
-  <section class="contacts">
-    <a href="https://wa.me/5562992664251" target="_blank">Fale no WhatsApp</a>
-    <a href="https://instagram.com/geofelix" target="_blank">Instagram @geofelix</a>
-    <a href="mailto:contato@giolife.com.br">contato@giolife.com.br</a>
+  <section class="section" id="solutions">
+    <h2>Soluções</h2>
+    <p>AI Assistants • Smart Branding • Embedded BI • GPT Tools • Market Connectors</p>
+  </section>
+
+  <section class="section" id="partners">
+    <h2>Parceiros</h2>
+    <p>RunAI Systems • Zoho • OpenAI • Wise • Microsoft</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contato</h2>
+    <p>Email: contato@vennex.io</p>
   </section>
 
   <footer>
-    © 2025 GioLIFE. CRMV-GO 12715 — Todos os direitos reservados.
+    © 2025 VENNEX.IO – Powered by RunAI Systems LLC
   </footer>
 </body>
 </html>
